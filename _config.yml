@@ -94,10 +94,9 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: landscape
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: alpha-dust
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
