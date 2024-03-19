@@ -26,7 +26,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: clean 
-        run: npm cache clean --force
+        run: npm set strict-ssl false
       - name: Install Dependencies
         run: npm install
       - name: Build
