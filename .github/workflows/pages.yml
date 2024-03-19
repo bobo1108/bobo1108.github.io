@@ -25,6 +25,8 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: clean 
+        run: npm cache clean --force
       - name: Install Dependencies
         run: npm install
       - name: Build
