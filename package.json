@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "hexo": "^5.4.0",
@@ -28,6 +28,7 @@
     "hexo-renderer-mathjax": "^0.6.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
+    "hexo-toc": "^1.1.0",
     "hexo-wordcount": "^6.0.1",
     "highlight.js": "^10.4.1",
     "leancloud-storage": "^4.10.1"

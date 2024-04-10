@@ -6,7 +6,7 @@
 # Site
 title: Your Title
 subtitle: This is hexo theme
-author: Your Name
+author: Leo
 timezone:
 
 # Internationalization (i18n) Setting
@@ -362,11 +362,18 @@ search:
   trigger: auto   # if 'auto', trigger search by changing input;if 'manual', trigger search by pressing enter key or search button
   top_n_per_article: 1    # show top n results per article, show all results by setting to -1
 
+toc:
+  enable: true
+  maxdepth: 3
+  
+
 
 # Theme config
 ## Themes: https://hexo.io/themes/
 ##
-theme: livemylife
+
+#theme: livemylife
+theme: hexo-theme-matery
 
 
 # Gitter

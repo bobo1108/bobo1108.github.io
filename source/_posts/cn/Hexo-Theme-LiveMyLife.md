@@ -16,6 +16,7 @@ categories:
 > 由 [Vincent](https://v-vincen.github.io/) 创建的 LiveMyLife 的主题修改来源 [YenYuHsuan](https://github.com/YenYuHsuan/hexo-theme-beantech)，参考主题 [dusign](https://github.com/dusign/hexo-theme-snail)、[Utone](https://github.com/shixiaohu2206/hexo-theme-huhu)，感谢 [dusign](https://github.com/dusign/hexo-theme-snail)、[Utone](https://github.com/shixiaohu2206/hexo-theme-huhu)。
 >   
 
+
 ## 仓库
 Github 仓库地址：https://github.com/V-Vincen/hexo-theme-livemylife
 Gitee 仓库地址：https://gitee.com/V_Vincen/hexo-theme-livemylife
@@ -23,7 +24,7 @@ Gitee 仓库地址：https://gitee.com/V_Vincen/hexo-theme-livemylife
 ### [预览 LiveMyLife 博客 ➾](https://v-vincen.github.io/)
 
 ![LiveMyLife Desktop](livemylife-desktop.png)
-
+<!-- toc -->
 ## 快速开始
 为了方便起见，我发布了整个项目，因此您可以按照下面的说明进行操作，然后就可以轻松自定义您自己的博客！
 
