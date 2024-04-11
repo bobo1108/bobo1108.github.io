@@ -20,7 +20,7 @@ categories:
 Github Repo: https://github.com/V-Vincen/hexo-theme-livemylife
 Gitee Repo: https://gitee.com/V_Vincen/hexo-theme-livemylife
 
-### [View LiveMyLife Blog ➾](https://v-vincen.github.io/)
+### [View LiveMyLife Blog ➾](https://bobo1108.io/)
 
 ![LiveMyLife Desktop](livemylife-desktop.png)
 

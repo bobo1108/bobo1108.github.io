@@ -38,6 +38,27 @@ categories:	Web3
 比如我装10个比特币给你，交易发布到区块链上，别人怎么知道我发起的，我用私钥签个名，别人用公钥验证签名，验证通过，交易确认
 
 #### 比特币的数据结构 
+- 重要概念一：hash pointer ~ hash指针
+普通的指针存的是某个结构体在内存中的地址
+- 1.比特币中一个最基本的数据结构是区块链
+区块链是什么？就是一个一个区块组成的链表
+和普通的链表区别是什么？1、hash 指针代替普通指针，（不仅存储地址，还保存hash值）
+
+![hash pointer](hash_pointer.png)
+- 我们通过这样的数据结构实现tamper-evedent log
+例如：有人篡改某个区块内容,通过hash指针找到篡改的区块，找到前一个区块，通过hash值判断是否篡改。
+
+- 2.比特币中另一个数据结构是merkle tree，
+
+![merkel-tree](merkel-tree.png)
+binary tree，一个区别是hash 指针代替普通指针
+
+每个区块分为block header 和 block body，这个区块包含的交易记录组成的merkel tree的根hash值存在这个区块的block header中，但是blokc header中不包含交易记录，只有根hash值，block body中包含交易列表。
+
+merkel tree有什么用呢？
+	- 1.找到这个交易所在的位置，从这个交易向上，找到根节点，这条路径就是merkel prooof
+![merkel-proof](merkel-proof.png)
+
 
 
 
