@@ -59,6 +59,8 @@ merkel tree有什么用呢？
 	- 1.找到这个交易所在的位置，从这个交易向上，找到根节点，这条路径就是merkel prooof
 ![merkel-proof](merkel-proof.png)
 
+#### 比特币的协议
+
 
 
 
